@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.header{
+    height: 80px;
+    width: 100vh;
+    background-color: red;
+}
+.container{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+/* identical to box height, or 32px */
+
+
+/* Cinzas/cinza 300 */
+
+    color: #5F5C6B;
+
+}
+.caixa{
+    border: 2px solid #7A7786;
+    border-radius: 16px;
+}
+.letra{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+/* identical to box height, or 24px */
+
+
+/* Cinzas/cinza 400 */
+
+    color: #7A7786;
+}

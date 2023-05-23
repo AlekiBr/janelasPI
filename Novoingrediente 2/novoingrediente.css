@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins';
+    font-style: normal;
+    background-color: black;
+}
+.container{
+    width: 551px;
+    height: 741px;
+    background: #FFFFFF;
+    box-shadow: 3px 5px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    /* identical to box height, or 32px */
+    
+    
+    /* Cinzas/cinza 300 */
+    
+    color: #5F5C6B;
+    
+}
+.social{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+
+
+    /* Cinzas/cinza 400 */
+
+    color: #7A7786;
+}
+.fantasia{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+
+
+    /* Cinzas/cinza 400 */
+
+    color: #7A7786;
+}
+.CNPJ{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+
+
+    /* Cinzas/cinza 400 */
+
+    color: #7A7786;
+}
+.telefone{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+
+
+    /* Cinzas/cinza 400 */
+
+    color: #7A7786;
+
+
+}
+.caixa{
+    border: 2px solid #7A7786;
+    border-radius: 16px;
+
+}
+.endereço{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+
+
+    /* Cinzas/cinza 400 */
+
+    color: #7A7786;
+
+}
+.butão{
+    background: #38B6FF;
+    border-radius: 30px;
+    font-weight: 600;
+    width: 120px;
+    height: 54px;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+
+    /* Escala/Color 600 */
+
+    color: #F1F0F5;
+    border: none;
+}
