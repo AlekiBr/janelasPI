@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,26 +25,68 @@
                 <button class="fornecedor">Fornecedor</button>
             </div>
         </div>
-        <section id="esquerda">
-            <div class="pedido">
-                <p>Informações do Pedido</p>
-                <p class="nf">NF / Número do Pedido</p>
-                <input type="text" class="caixa">
-                <p class="for">Fornecedor</p>
-                <input type="text" class="caixa">
-                <p class="data">Data</p>
-                <input type="text" class="caixa">
-        </section>
-        <section id="direita">
-            <p class="itens">Itens do Pedido</p>
-            <div class="tabela">
-                <p>Código</p>
-                <p>Ingrediente</p>
-                <p>Quantidade</p>
-                <p>Preço</p>
-                <p>Tamanho</p>
-            </div>
-        </section>
+        <div class="meio">
+            <section id="esquerda">
+                <div class="pedido">
+                    <p>Informações do Pedido</p>
+                    <p class="nf">NF / Número do Pedido</p>
+                    <input type="text" class="caixa">
+                    <p class="for">Fornecedor</p>
+                    <input type="text" class="caixa">
+                    <p class="data">Data</p>
+                    <input type="text" class="caixa">
+                </div>
+            </section>
+            <section id="direita">
+                <p class="itens">Itens do Pedido</p>
+                <table class="tabela" style="width:100%">
+                    <tr>
+                        <th>CÓDIGO</th>
+                        <th>INGREDIENTE</th>
+                        <th>QUANTIDADE</th>
+                        <th>PREÇO</th>
+                        <th>TAMANHO</th>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td>Açucar</td>
+                        <td>2</td>
+                        <td>R$12,80</td>
+                        <td>1000g</td>
+                    </tr>
+                    <tr>
+                        <td>53</td>
+                        <td>Farinha de Trigo</td>
+                        <td>3</td>
+                        <td>R$24,00</td>
+                        <td>5000g </td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Ovo</td>
+                        <td>5</td>
+                        <td>R$35,00</td>
+                        <td>12un</td>
+                    </tr>
+                    <tr>
+                        <td>56</td>
+                        <td>Leite</td>
+                        <td>2</td>
+                        <td>R$10,00</td>
+                        <td>1000ml</td>
+                    </tr>
+                </table>
+
+                <!-- <div class="tabela">
+                    <p>Código</p>
+                    <p>Ingrediente</p>
+                    <p>Quantidade</p>
+                    <p>Preço</p>
+                    <p>Tamanho</p>
+                    
+                </div> -->
+            </section>
+        </div>
         <div>
             <button class="adicionar">Adicionar Ingrediente</button>
         </div>
