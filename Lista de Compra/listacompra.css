@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.container {
+    width: 1595px;
+    height: 892px;
+    left: 325px;
+    top: 0px;
+
+
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    /* identical to box height, or 40px */
+
+
+    /* Cinzas/cinza 200 */
+
+    color: #4E4B59;
+}
+
+#esquerda {
+    display: flex;
+    gap: 128px;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-top: 110px;
+
+}
+
+#direita {
+    display: flex;
+    gap: 128px;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-top: 110px;
+
+}
+
+.pedido {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    /* identical to box height, or 32px */
+
+
+    /* Cinzas/cinza 300 */
+
+    color: #5F5C6B;
+}
+
+.caixa {
+    width: 400px;
+    height: 40px;
+
+    /* Cinzas/cinza 600 */
+
+    background: #F1F0F5;
+    /* Cinzas/cinza 500 */
+
+    border: 2px solid #C6C5CE;
+    border-radius: 16px;
+}
+
+.tabela {
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+
+
+    /* primary/color-01 */
+
+    color: #FFFFFF;
+    gap: 79px;
+    border-left: 19px;
+    width: 959px;
+    height: 49px;
+
+    left: 0px;
+    top: 0px;
+
+    /* Cor/cor 1 */
+
+    background: #38B6FF;
+    border-radius: 16px 16px 0px 0px;
+
+}
+
+.itens {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    /* identical to box height, or 32px */
+
+
+    /* Cinzas/cinza 300 */
+
+    color: #5F5C6B;
+}
+
+.fornecedor {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+
+    /* Escala/Color 600 */
+
+    color: #F1F0F5;
+    width: 148px;
+    height: 40px;
+
+    /* Cor/cor 2 */
+
+    background: #89C400;
+    border-radius: 30px;
+    border: none;
+}
+
+.ingrediente {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+
+    /* Escala/Color 600 */
+
+    color: #F1F0F5;
+    width: 176px;
+    height: 40px;
+
+    /* Cor/cor 1 */
+
+    background: #38B6FF;
+    border-radius: 30px;
+    border: none;
+}
+
+.adicionar {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+
+    /* Escala/Color 600 */
+
+    color: #F1F0F5;
+    width: 213px;
+    height: 40px;
+    border: none;
+    /* Cor/cor 1 */
+
+    background: #38B6FF;
+    border-radius: 30px;
+}
+
+.nf {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+
+
+    /* Cinzas/cinza 400 */
+
+    color: #7A7786;
+}
+
+.data {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+
+
+    /* Cinzas/cinza 400 */
+
+    color: #7A7786;
+}
+
+.for {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    /* identical to box height, or 24px */
+
+
+    /* Cinzas/cinza 400 */
+
+    color: #7A7786;
+}
+
+.lupa {
+    width: 24px;
+
+
+}
+
+.pesquisa {
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    width: 268px;
+    height: 40px;
+    justify-content: space-between;
+    border: 1.5px solid #8e8e8e;
+    border-radius: 16px;
+}
+
+.input-pesquisa {
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.right {
+    display: flex;
+    gap: 8px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}

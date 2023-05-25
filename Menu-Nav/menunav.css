@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 892px;
+    left: 0px;
+    top: 0px;
+}
+.logo{
+    width: 80px;
+    height: 58.06px;
+    left: 132px;
+    top: 31px;
+    margin-bottom: 104px;
+    margin-left: 132px;
+    margin-top: 31px;
+}
+.home{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #89C400;
+}
+.ingrediente{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #38B6FF;
+}
+.receitas{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #38B6FF;
+}
+.produtos{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #38B6FF;
+}
+.pedidos{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #38B6FF;
+}
+.clientes{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #38B6FF;
+}
+.gestao{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #38B6FF;
+}
+
+.button-menu{
+    display: flex;
+    gap: 16px;
+}
+.nave{
+    margin-left: 24px;
+    width: 257px;
+    height: 532px;
+    left: 24px;
+    top: 193px;
+}
