@@ -45,12 +45,11 @@ body {
     justify-content: space-between;
 
 }
-.meio{
+.meio {
     display: flex;
     line-height: 100%;
 
 }
-
 #direita {
     display: flex;
     gap: 128px;
@@ -60,7 +59,6 @@ body {
     justify-content: space-between;
 
 }
-
 .pedido {
     margin-left: 42px;
     display: flex;
@@ -89,7 +87,9 @@ body {
     border-radius: 16px;
 }
 
-.table, th, td {
+.table,
+th,
+td {
     border: 1px solid black;
     width: 100%;
 }
@@ -207,18 +207,14 @@ body {
     font-weight: 600;
     font-size: 24px;
     line-height: 100%;
-    /* identical to box height, or 24px */
-
-
-    /* Cinzas/cinza 400 */
-
     color: #7A7786;
 }
 
 .lupa {
+    border: none;
+    background: transparent;
+    border: transparent;
     width: 24px;
-
-
 }
 
 .pesquisa {
